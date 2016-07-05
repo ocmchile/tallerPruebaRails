@@ -11,4 +11,8 @@ class PagesController < ApplicationController
 		redirect_to pages_x_path, notice: "DEBE INGRESAR TODOS LOS DATOS"
   	end
   end
+
+  def landing
+  	render layout: 'layout2'
+  end
 end
